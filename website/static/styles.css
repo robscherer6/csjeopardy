@@ -1,0 +1,82 @@
+/* Reset some default browser styles */
+body, h1, table {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the body */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ecf0f1; /* Light gray background */
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the header */
+h1 {
+    background-color: #3498db; /* Blue header */
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Style the table */
+table {
+    border-collapse: collapse;
+    width: 80%;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the table headings */
+th {
+    background-color: #34495e; /* Dark blue heading background */
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the table cells */
+td {
+    padding: 10px;
+    text-align: center;
+}
+
+/* Style the links for point values */
+a {
+    text-decoration: none;
+    color: #e67e22; /* Orange point value color */
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #e74c3c; /* Red point value color on hover */
+}
+
+/* Style for the question popup */
+.question-popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1000;
+}
+
+/* Style for the iframe */
+#question-iframe {
+    width: 80%;
+    height: 80%;
+    margin: 10% auto;
+    display: block;
+}
+
+/* Style for the question options */
+.question-options {
+    text-align: center;
+    margin-top: 20px;
+}
