@@ -1,4 +1,6 @@
 from flask import Blueprint, render_template, request, flash
+from .models import User
+from . import db
 
 auth = Blueprint('auth', __name__)
 
